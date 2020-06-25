@@ -1,0 +1,132 @@
+Package: linux-headers-5.4.46-bpi-r2-main
+Source: linux-5.4.46-bpi-r2-main
+Version: 5.4.46-bpi-r2-main-1
+Architecture: armhf
+Maintainer: runner <runner@fv-az128.kdvgyeubklxefnse1ex5jyp2ca.cx.internal.cloudapp.net>
+Installed-Size: 72452
+Filename: ./linux-headers-5.4.46-bpi-r2-main_5.4.46-bpi-r2-main-1_armhf.deb
+Size: 11146128
+MD5sum: 0204dd89e2124355e3ff89083214f9c1
+SHA1: 9b102138752a7f663f61dd2c2f8da13ada3bf8f5
+SHA256: a5e04195d5721aa490b92f8036cce774a732879a5be16babf8720241e6883fe6
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 5.4.46-bpi-r2-main on armhf
+ This package provides kernel header files for 5.4.46-bpi-r2-main on armhf
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.4.46-bpi-r64-main
+Source: linux-5.4.46-bpi-r64-main
+Version: 5.4.46-bpi-r64-main-2
+Architecture: arm64
+Maintainer: runner <runner@fv-az128.kdvgyeubklxefnse1ex5jyp2ca.cx.internal.cloudapp.net>
+Installed-Size: 71766
+Filename: ./linux-headers-5.4.46-bpi-r64-main_5.4.46-bpi-r64-main-2_arm64.deb
+Size: 11016228
+MD5sum: 205d5eba0236ca6c2dd69508ce90e99d
+SHA1: 69807222b08c3528c383a2a6a4418fd6f8059d24
+SHA256: 74990fc8a047ea915bd30e6e05c2f14a338e3c44986e0911046601a6b38f3448
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 5.4.46-bpi-r64-main on arm64
+ This package provides kernel header files for 5.4.46-bpi-r64-main on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-5.4.46-bpi-r2-main
+Source: linux-5.4.46-bpi-r2-main
+Version: 5.4.46-bpi-r2-main-1
+Architecture: armhf
+Maintainer: runner <runner@fv-az128.kdvgyeubklxefnse1ex5jyp2ca.cx.internal.cloudapp.net>
+Installed-Size: 30129
+Filename: ./linux-image-5.4.46-bpi-r2-main_5.4.46-bpi-r2-main-1_armhf.deb
+Size: 19919304
+MD5sum: ac82ea01bdffc9ade3c554602568285a
+SHA1: bda5e14cc728ed873a407e24c09abbceef652c52
+SHA256: a56b886401779c45af72f92a6fd63a75fefc3fa2c4a712004c7b054b5d980c4d
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 5.4.46-bpi-r2-main
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.4.46-bpi-r2-main.
+
+Package: linux-image-5.4.46-bpi-r2-main-dbg
+Source: linux-5.4.46-bpi-r2-main
+Version: 5.4.46-bpi-r2-main-1
+Architecture: armhf
+Maintainer: runner <runner@fv-az128.kdvgyeubklxefnse1ex5jyp2ca.cx.internal.cloudapp.net>
+Installed-Size: 381487
+Filename: ./linux-image-5.4.46-bpi-r2-main-dbg_5.4.46-bpi-r2-main-1_armhf.deb
+Size: 91694400
+MD5sum: f155726cccac4b57b352ddaa75edcae6
+SHA1: 708f0d6b14db211f49b5bdfb04b1eed0f7d3f4c5
+SHA256: 657928afa110b55e7b2459260457194b8225261eb83538e596b780e5a217adf4
+Section: debug
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel debugging symbols for 5.4.46-bpi-r2-main
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-image-5.4.46-bpi-r64-main
+Source: linux-5.4.46-bpi-r64-main
+Version: 5.4.46-bpi-r64-main-2
+Architecture: arm64
+Maintainer: runner <runner@fv-az128.kdvgyeubklxefnse1ex5jyp2ca.cx.internal.cloudapp.net>
+Installed-Size: 18964
+Filename: ./linux-image-5.4.46-bpi-r64-main_5.4.46-bpi-r64-main-2_arm64.deb
+Size: 5217100
+MD5sum: 7496986913e20ff95c512209f9348ff4
+SHA1: 27e40190b54753bfca9fc088aca01b83a8aaaf10
+SHA256: d6b0d26ba301d8bfcb77ed92c6f553b7a7e73df8149d15d6745e3db8b75ad57e
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 5.4.46-bpi-r64-main
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.4.46-bpi-r64-main.
+
+Package: linux-libc-dev
+Source: linux-5.4.46-bpi-r2-main
+Version: 5.4.46-bpi-r2-main-1
+Architecture: armhf
+Maintainer: runner <runner@fv-az128.kdvgyeubklxefnse1ex5jyp2ca.cx.internal.cloudapp.net>
+Installed-Size: 5425
+Provides: linux-kernel-headers
+Filename: ./linux-libc-dev_5.4.46-bpi-r2-main-1_armhf.deb
+Size: 1049296
+MD5sum: 49ef7c18816fb115d7b09cfa1a8f35f6
+SHA1: 081b77f6b04e79259a8266aab3421483b4dcf223
+SHA256: f25729951be4e69b16327aba247699c0a0591c8a152432ec70e96250801a37d0
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: linux-libc-dev
+Source: linux-5.4.46-bpi-r64-main
+Version: 5.4.46-bpi-r64-main-2
+Architecture: arm64
+Maintainer: runner <runner@fv-az128.kdvgyeubklxefnse1ex5jyp2ca.cx.internal.cloudapp.net>
+Installed-Size: 5414
+Provides: linux-kernel-headers
+Filename: ./linux-libc-dev_5.4.46-bpi-r64-main-2_arm64.deb
+Size: 1047204
+MD5sum: fc8cee8adc1d14ff96466fdbca671145
+SHA1: eb50a74d351c70575ff0fcc58062babb4f5cc2d7
+SHA256: ed797328c4517ca2fabd25fc54de9b4d8847e083a5dc72e41efb45a09509606a
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
