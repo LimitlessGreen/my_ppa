@@ -18,6 +18,10 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     #runs-on: self-hosted
+    
+    # Only on Autopush
+    if: "!contains(github.event.head_commit.message, '[GitHub Actions] Autopush')"
+    
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
   
@@ -64,8 +68,15 @@ jobs:
         git config --local user.name "GitHub Action"
         git add -A
         git commit -m"[GitHub Actions] Update PPA"
-        git push        
-
-      
+        git push
+    
+    # Reset to previous commit, let GitHub's garbage collector do the rest
+    - name: Clean Autocommit 
+      run: |
+        cd pre_upload
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git reset --hard HEAD~ 
+        git push -f
       
       
